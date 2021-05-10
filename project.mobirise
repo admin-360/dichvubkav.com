@@ -56,7 +56,7 @@
     ],
     "imageResize": true,
     "favicon": false,
-    "mbrsiteDomain": "econtract",
+    "mbrsiteDomain": "o30tnf0a0w",
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -64,7 +64,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 111,
-    "versionPublish": "5.3.0",
+    "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
@@ -4389,11 +4389,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"video4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Watch Video</b>\n            </h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/-eTgkOeZUqg?loop=0&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Video Description</p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        <b>Phần&nbsp; mềm bảo hiểm xã hội điện tử Bkav</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Phần mềm bảo hiểm xã hội điện tử giúp Doanh nghiệp cập&nbsp; nhật thông tin về bảo hiểm, nhận kế quả và tra cứu thông tin bảo hiểm xã hội hoàn toàn online mà không cần cài đặt lên máy tính. Nhằm giúp Doanh nghiệp tiết kiệm thời gian và chi phí trong quá trình hoạt động kinh doanh.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "swUagqlh05",
+          "_anchor": "video4-30",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "video4-30"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4873,9 +4873,9 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/econtract-bkav01-1600x458.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sile1-1240x560.jpg",
                 "active": true,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
@@ -4883,36 +4883,17 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "FULL SCREEN SLIDER",
+                "title": "VIDEO SLIDE",
                 "overlay": true,
-                "contentAlign": "center",
-                "text": "Giúp Doanh nghiệp tối ưu hóa 80% thời gian và chi phí trong việc ký kết và lưu trữ hợp đồng.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" href=\"lien-he.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký dùng thử</a>    ",
-                "overlayColor": "#0f7699",
-                "textTitle": "Giải pháp tiết kiệm"
+                "contentAlign": "left",
+                "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayColor": "#073b4c",
+                "textTitle": "Doanh nghiệp chuyển đổi số",
+                "overlayOpacity": "0.4"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/econtract-bkav01-1600x458.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Carousel Template",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Trải nghiệm ký kết hợp đồng từ xa trong thời đại công nghệ số.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" href=\"lien-he.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký dùng thử</a> ",
-                "overlayColor": "#465052",
-                "overlayOpacity": "0.5",
-                "textTitle": "Hợp đồng điện tử"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/econtract-bkav01-1600x458.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sile3-1-1240x560.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -4928,7 +4909,28 @@
                 "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
                 "overlayColor": "#073b4c",
-                "textTitle": "Doanh nghiệp chuyển đổi số"
+                "textTitle": "Doanh nghiệp chuyển đổi số",
+                "overlayOpacity": "0.4"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sile2-1-1240x560.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "VIDEO SLIDE",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayColor": "#073b4c",
+                "textTitle": "Doanh nghiệp chuyển đổi số",
+                "overlayOpacity": "0.4"
               }
             ]
           }
