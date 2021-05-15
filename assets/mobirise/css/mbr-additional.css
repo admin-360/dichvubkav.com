@@ -2843,6 +2843,35 @@ a {
     left: -1rem;
   }
 }
+.cid-sxrX9yQZHc {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #40b0bf;
+}
+.cid-sxrX9yQZHc .card {
+  border-radius: 0;
+}
+@media (min-width: 992px) {
+  .cid-sxrX9yQZHc .card {
+    border-right: 1px solid white;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sxrX9yQZHc .card {
+    border-right: 0px;
+    border-bottom: 1px solid white;
+  }
+}
+.cid-sxrX9yQZHc .wrapper {
+  padding: 30px 0;
+}
+.cid-sxrX9yQZHc .mbr-section-title {
+  color: #fafafa;
+}
+.cid-sxrX9yQZHc .mbr-text,
+.cid-sxrX9yQZHc .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-swSr6aHH3y {
   padding-top: 3rem;
   padding-bottom: 0rem;
