@@ -4694,7 +4694,7 @@
             },
             ".boxed-slider": {
               "position": "relative",
-              "padding": "10px 0"
+              "padding": "93px 0"
             },
             ".boxed-slider > div": {
               "position": "relative"
@@ -4704,7 +4704,7 @@
             },
             ".container img + .row": {
               "position": "absolute",
-              "top": "20%",
+              "top": "30%",
               "left": "0",
               "right": "0",
               "-webkit-transform": "translateY(-50%)",
@@ -4777,7 +4777,7 @@
                 "margin-top": "-1.5rem",
                 "font-size": "35px",
                 "background-color": "rgba(0, 0, 0, 0.5)",
-                "border": "1px solid #fff",
+                "border": "2px solid #fff",
                 "border-radius": "50%",
                 "transition": "all .3s",
                 "&.carousel-control-prev": {

@@ -56,24 +56,33 @@
     ],
     "imageResize": true,
     "favicon": false,
-    "mbrsiteDomain": "zuqe04qwoh",
+    "mbrsiteDomain": "arivs9rgbg",
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://dichvubkav.com/",
+    "siteUrl": "http://dichvubkav.com/",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "gdpr": false,
     "uniqCompNum": 128,
-    "versionPublish": "5.3.0",
+    "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "dppsSwitcher": true,
     "spellingSwitch": false,
     "site_lang": "en",
-    "global_header_custom": "\n@20000009",
-    "cookiesAlert": false,
-    "gdpr": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "global_header_custom": "\n@20000009"
   },
   "pages": {
     "lien-he.html": {
@@ -667,9 +676,9 @@
     },
     "hoa-don-dien-tu.html": {
       "settings": {
-        "title": "Hóa đơn điện tử Bkav-eHoadon",
+        "title": "Hóa đơn điện tử",
         "order": 2,
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807"
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807"
       },
       "components": [
         {
@@ -1394,9 +1403,9 @@
     },
     "chu-ky-so.html": {
       "settings": {
-        "title": "Chữ ký số Bkav CA",
+        "title": "Chữ ký số",
         "order": 1,
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807"
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807"
       },
       "components": [
         {
@@ -2120,9 +2129,9 @@
     },
     "bang-gia-econtract.html": {
       "settings": {
-        "title": "Bảng giá hợp đồng điện tử Bkav-eContract",
+        "title": "Bảng giá eContract",
         "order": 4,
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807"
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807"
       },
       "components": [
         {
@@ -2848,11 +2857,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section group=\"Features\" class=\"info2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#40b0bf\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#6592e6\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg-6\">\n                <div class=\"wrapper\">\n                    <h3 class=\"mbr-section-title mb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Đăng ký sử dụng phần mềm</b></h3>\n                    <p class=\"mbr-text mb-4 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Visit our Help Center to get started developing websites with Mobirise. Use Help Center to find answers to your questions. Contact us directly at info@site.com</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\">Đăng ký sử dụng phần mềm&nbsp;</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">\n                        <b>Mobirise Kit</b>\n                    </h3>\n                    <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Beautiful website blocks, templates and themes help you to start easily. Expand your Mobirise experience with Code Editor, Form Builder and other extensions.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Xem hướng dẫn sử dụng phần mềm</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sxrX9yQZHc",
-          "_anchor": "info2-3j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "info2-3j"
         },
         {
           "alias": false,
@@ -3064,9 +3073,9 @@
     },
     "bao-hiem-xa-hoi-dien-tu.html": {
       "settings": {
-        "title": "Phần mềm Bảo hiểm xã hội điệ tử Bkav Ivan",
+        "title": "Phần mềm Bảo hiểm xã hội điệ tử",
         "order": 3,
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807"
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807"
       },
       "components": [
         {
@@ -3793,7 +3802,7 @@
       "settings": {
         "title": "Bản tin",
         "order": 5,
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807"
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807"
       },
       "components": [
         {
@@ -4660,7 +4669,7 @@
       "settings": {
         "main": true,
         "title": "Trang chủ",
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807",
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -4687,14 +4696,14 @@
               "color": "#fff",
               "opacity": "1"
             },
-            "@media (max-width: 100%)": {
+            "@media (max-width: 767px)": {
               ".container .carousel-control": {
                 "margin-bottom": "0"
               }
             },
             ".boxed-slider": {
               "position": "relative",
-              "padding": "10px 0"
+              "padding": "93px 0"
             },
             ".boxed-slider > div": {
               "position": "relative"
@@ -4704,7 +4713,7 @@
             },
             ".container img + .row": {
               "position": "absolute",
-              "top": "20%",
+              "top": "50%",
               "left": "0",
               "right": "0",
               "-webkit-transform": "translateY(-50%)",
@@ -4772,12 +4781,12 @@
             ".mbr-slider": {
               ".carousel-control": {
                 "top": "50%",
-                "width": "50px",
-                "height": "50px",
+                "width": "70px",
+                "height": "70px",
                 "margin-top": "-1.5rem",
                 "font-size": "35px",
                 "background-color": "rgba(0, 0, 0, 0.5)",
-                "border": "1px solid #fff",
+                "border": "2px solid #fff",
                 "border-radius": "50%",
                 "transition": "all .3s",
                 "&.carousel-control-prev": {
@@ -4922,51 +4931,11 @@
           "_once": false,
           "_params": {
             "slides__autoplay": "true",
-            "slides__autoplayInterval": "4000",
+            "slides__autoplayInterval": "2000",
             "slides__showBullets": true,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/sile1-1240x560.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "VIDEO SLIDE",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" href=\"lien-he.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký&nbsp;</a> ",
-                "overlayColor": "#073b4c",
-                "textTitle": "HỢP ĐỒNG ĐIỆN TỬ BKAV eContract",
-                "overlayOpacity": "0.3"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/sile3-1-1240x560.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "VIDEO SLIDE",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" href=\"lien-he.html\" data-toolbar=\"-mbrBtnMove\">Đăng ký&nbsp;</a> ",
-                "overlayColor": "#073b4c",
-                "textTitle": "Doanh nghiệp chuyển đổi số",
-                "overlayOpacity": "0.4"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/sile2-1-1240x560.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
@@ -4978,11 +4947,51 @@
                 "customStyle3": "display-4",
                 "title": "VIDEO SLIDE",
                 "overlay": true,
-                "contentAlign": "center",
-                "text": "Doanh nghiệp bắt buộc phải chuyển đổi&nbsp; tử&nbsp; hóa đơn giấy sang hóa đơn điện tử thời gian chuyển đổi&nbsp; cho đến 07/2022 .&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" href=\"http://ehoadonbkav.com/\" data-toolbar=\"-mbrBtnMove\">XEM CHI TIẾT</a> ",
+                "contentAlign": "left",
+                "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
                 "overlayColor": "#073b4c",
-                "textTitle": "Hóa đơn điện tử BKAV&nbsp;",
+                "textTitle": "HỢP ĐỒNG ĐIỆN TỬ BKAV eContract",
+                "overlayOpacity": "0.4"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sile3-1-1240x560.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "VIDEO SLIDE",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Hỗ trợ Doanh nghiệp chuyển đổi số nhằm mục đích giảm chi phí, tiết kiệm thời gian và đạt mục tiêu tăng lợi nhuận trong hoạt động kinh doanh.&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayColor": "#073b4c",
+                "textTitle": "Doanh nghiệp chuyển đổi số",
+                "overlayOpacity": "0.4"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sile2-1-1240x560.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "VIDEO SLIDE",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Doanh nghiệp bắt buộc phải chuyển đổi&nbsp; tử&nbsp; hóa đơn giấy sang hóa đơn điện tử thời gian chuyển đổi&nbsp; cho đến 07/2022 .&nbsp;",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayColor": "#073b4c",
+                "textTitle": "Hóa&nbsp; đơn điện tử BKAV&nbsp;",
                 "overlayOpacity": "0.4"
               }
             ]
@@ -5054,7 +5063,7 @@
               "text-align": "left"
             }
           },
-          "_customHTML": "<section class=\"counters2 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" title=\"Media Size\" inline name=\"mediaSize\" min=\"20\" max=\"60\" value=\"44\">\n        <input type=\"checkbox\" title=\"Show Block Title\" name=\"showTitles\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\" selected>4</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n           <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n           <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-4 mt-2\">\n        <div class=\"media-container-row\">\n            <div class=\"media-block\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <h2 class=\"mbr-section-title pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Phần mềm quản lý hợp đồng điện tử&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle pb-5 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Là số hóa hợp đồng và ký điện tử thay thế cho hợp đồng giấy thông thường.</h3>\n                <div class=\"mbr-figure\" mbr-if=\"showMedia\">\n                    <img src=\"@PROJECT_PATH@/assets/images/econtractbkav-868x642.png\" alt title>\n                </div>\n            </div>\n            <div class=\"cards-block\">\n                <div class=\"cards-container\">\n                    <div class=\"card px-3 align-left col-12 col-md-6\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-cash\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 50px;\"></span>\n                                <h3 class=\"count py-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Tối ưu hóa 90% chi phí</h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Tiết kiệm chi phí</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Không cần phải in ấn, kệ tủ lưu trữ hợp đồng, không phải gửi chuyển phát.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12 col-md-6\" mbr-if=\"cardsAmount>1\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-clock\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 45px;\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Tiết kiệm 90% thời gian</h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Tiết kiệm thời gian</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Ký hợp đồng mọi lúc, mọi nơi. Tìm kiếm hợp đồng nhanh chóng</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12 col-md-6\" mbr-if=\"cardsAmount>2\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-setting3\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 50px;\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Chuẩn hóa quy trình hợp đồng</h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Quy trình hóa hợp đồng số</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Chuẩn hóa từ người quản lý hợp đồng cho đên người nhận hợp đồng.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12 col-md-6\" mbr-if=\"cardsAmount>3\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-edit\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 50px;\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Đáp ứng tính pháp lý</h3>\n                            </div>\n                            <div class=\"card-texts\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Đáp ứng tiêu chuẩn pháp lý</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Theo quy định pháp luật, tích hợp với mọi thiết bị chữ ký số.&nbsp;&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"counters2 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" title=\"Media Size\" inline name=\"mediaSize\" min=\"20\" max=\"60\" value=\"43\">\n        <input type=\"checkbox\" title=\"Show Block Title\" name=\"showTitles\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\" selected>4</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n           <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n           <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-4 mt-2\">\n        <div class=\"media-container-row\">\n            <div class=\"media-block\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <h2 class=\"mbr-section-title pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Phần mềm quản lý hợp đồng điện tử&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle pb-5 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Là số hóa hợp đồng và ký điện tử thay thế cho hợp đồng giấy thông thường.</h3>\n                <div class=\"mbr-figure\" mbr-if=\"showMedia\">\n                    <img src=\"@PROJECT_PATH@/assets/images/econtractbkav-868x642.png\" alt title>\n                </div>\n            </div>\n            <div class=\"cards-block\">\n                <div class=\"cards-container\">\n                    <div class=\"card px-3 align-left col-12 col-md-6\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-cash\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 50px;\"></span>\n                                <h3 class=\"count py-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Tối ưu hóa 90% chi phí</h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Tiết kiệm chi phí</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Không cần phải in ấn, kệ tủ lưu trữ hợp đồng, không phải gửi chuyển phát.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12 col-md-6\" mbr-if=\"cardsAmount>1\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-clock\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 45px;\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Tiết kiệm 90% thời gian</h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Tiết kiệm thời gian</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Ký hợp đồng mọi lúc, mọi nơi. Tìm kiếm hợp đồng nhanh chóng</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12 col-md-6\" mbr-if=\"cardsAmount>2\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-setting3\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 50px;\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Chuẩn hóa quy trình hợp đồng</h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Quy trình hóa hợp đồng số</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Chuẩn hóa từ người quản lý hợp đồng cho đên người nhận hợp đồng.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12 col-md-6\" mbr-if=\"cardsAmount>3\">\n                        <div class=\"panel-item p-3\">\n                            <div class=\"card-img pb-3\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbr-iconfont pr-2 mbri-edit\" style=\"color: rgb(89, 89, 89); fill: rgb(89, 89, 89); font-size: 50px;\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">Đáp ứng tính pháp lý</h3>\n                            </div>\n                            <div class=\"card-texts\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">Đáp ứng tiêu chuẩn pháp lý</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Theo quy định pháp luật, tích hợp với mọi thiết bị chữ ký số.&nbsp;&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "counters2-4",
           "_isUserblock": true,
           "_cid": "suBTyqocxV",
@@ -5859,7 +5868,7 @@
       "settings": {
         "title": "Hướng dẫn sử dụng",
         "order": 6,
-        "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807",
+        "meta_descr": "Đăng ký sử dụng dịch vụ Bkav: Hóa đơn điện tử bkav | Chữ ký số Bkav | Phần mềm BHXH điện tử Bkav | Phần mềm hợp đồng điện tử bkav | Liên hệ: 097 6826807",
         "header_custom": ""
       },
       "components": [

@@ -4687,14 +4687,14 @@
               "color": "#fff",
               "opacity": "1"
             },
-            "@media (max-width: 100%)": {
+            "@media (max-width: 767px)": {
               ".container .carousel-control": {
                 "margin-bottom": "0"
               }
             },
             ".boxed-slider": {
               "position": "relative",
-              "padding": "10px 0"
+              "padding": "93px 0"
             },
             ".boxed-slider > div": {
               "position": "relative"
@@ -4704,7 +4704,7 @@
             },
             ".container img + .row": {
               "position": "absolute",
-              "top": "20%",
+              "top": "50%",
               "left": "0",
               "right": "0",
               "-webkit-transform": "translateY(-50%)",
@@ -4772,12 +4772,12 @@
             ".mbr-slider": {
               ".carousel-control": {
                 "top": "50%",
-                "width": "50px",
-                "height": "50px",
+                "width": "70px",
+                "height": "70px",
                 "margin-top": "-1.5rem",
                 "font-size": "35px",
                 "background-color": "rgba(0, 0, 0, 0.5)",
-                "border": "1px solid #fff",
+                "border": "2px solid #fff",
                 "border-radius": "50%",
                 "transition": "all .3s",
                 "&.carousel-control-prev": {

@@ -4694,7 +4694,7 @@
             },
             ".boxed-slider": {
               "position": "relative",
-              "padding": "10px 0"
+              "padding": "50px 0"
             },
             ".boxed-slider > div": {
               "position": "relative"
@@ -4723,7 +4723,7 @@
               "margin-bottom": "3px"
             },
             ".carousel-caption": {
-              "top": "50%",
+              "top": "10%",
               "right": "0",
               "bottom": "auto",
               "left": "0",
