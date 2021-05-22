@@ -5530,7 +5530,7 @@
         "title": "Trang chủ",
         "meta_descr": "Đăng ký dịch vu Bkav: Hóa đơn điện tử | Chữ ký số  | Phần mềm BHXH điện tử | Phần mềm hợp đồng điện tử | Liên hệ: 097 6826807",
         "header_custom": "",
-        "footer_custom": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-bec9bcbb-a168-4938-91ed-d8e881a37fe2\"></div>",
+        "footer_custom": "",
         "html_before": ""
       },
       "components": [
